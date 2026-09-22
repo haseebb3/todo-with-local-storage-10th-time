@@ -113,7 +113,7 @@ function onDelete(ele){
     ele.closest("li").remove();
     Swal.fire({
     title: "Deleted!",
-    text: "Your file has been deleted.",
+    text: "Your todo has been deleted.",
     icon: "success"
   });
   } 
